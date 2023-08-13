@@ -53,6 +53,5 @@
               VALIDATE_ALL_CODEBASE: false
               DEFAULT_BRANCH: master
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            with:
-              failure-threshold: error
+              DOCKERFILE_HADOLINT_FILE_NAME: .hadolint.yml
               
